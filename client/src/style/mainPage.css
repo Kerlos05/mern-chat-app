@@ -1,0 +1,119 @@
+
+:root {
+    --secondary: rgb(0, 0, 0);
+    --background: #ffffff;
+    /* --background: #037272 */
+    /* --background: #edebd9; */
+}  
+
+
+body{
+  background-color: var(--background);
+  color: var(--secondary);
+  height: 100vh;
+}
+
+html{
+  height: 100vh;
+}
+
+
+.chat-window {
+  overflow: auto;
+  padding: 3px;
+  border-radius: 5px;
+  min-height: calc(100% - 3rem);  
+  height: 400px;
+  z-index: 100;
+}
+
+
+.avatar-collection{
+  background-color: var(--background);
+  filter: brightness(96%);
+  width: calc(24% - 8px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 25%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+
+
+.avatar-collection-users {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-left: 0.5rem;
+  margin-bottom: 1.5em; 
+}
+
+.avatar-collection-users > p{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(12px);
+}
+
+.chaningImage{
+  width: 60px;
+  height: 60px;
+}
+
+.avatar-collection-container{
+  max-height: 290px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+
+.main-container{
+  height: calc(100vh - 4rem);
+}
+
+@media (max-width: 768px) {
+  .avatar-collection-container{
+    max-height: 365px;
+  }
+}
+
+@media (max-width: 500px) {
+  
+  .avatar-collection.expand {
+    width: 100% !important;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    z-index: 100000;
+  }
+
+  .avatar-collection-users {
+    display: grid;
+    padding: 5px;
+
+  }
+  .avatar-collection-users > p{
+    padding: 5px; 
+    transform: translateY(0);
+    padding-left: 0.2rem;
+
+  }
+  .chaningImage{
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.imageName {
+  max-width:100px; 
+  white-space: nowrap;
+  transition: background 200ms;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  
+}
+
