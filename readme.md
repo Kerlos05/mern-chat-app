@@ -1,5 +1,8 @@
 # MERN Chat Application
 
+
+![Alt Text](./Skärmbild%202024-03-12%20203659.jpg)
+
 ## Overview
     This is a chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
     It provides a real-time communication platform with a variety of features.  
