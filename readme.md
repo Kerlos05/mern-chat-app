@@ -10,6 +10,9 @@
 ### JWT Authentication
     Users are authenticated using JSON Web Tokens (JWT). 
 
+![login](https://github.com/Kerlos05/mern-chat-app/assets/96844802/6b0c8464-5225-47d2-862a-9182a1e37ad5)
+
+
 ### Real-time Communication
     Real-time communication is facilitated through Socket.IO. 
     Users can send and receive messages instantly in their respective chat groups.
