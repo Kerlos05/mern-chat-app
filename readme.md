@@ -28,12 +28,16 @@
     Users can update their username and avatar, 
     providing a personalized experience. They also have the option to leave a group.
 
+![settings](https://github.com/Kerlos05/mern-chat-app/assets/96844802/55ba0679-b29f-4532-9b6f-0de968e382f0)
+
 ### User and Message Management
     Users have the ability to delete their account, 
     along with their messages, ensuring control over their data.
 
 ### Friend Search
     A search feature is available for users to find friends on the platform.
+
+![Main page](https://github.com/Kerlos05/mern-chat-app/assets/96844802/44c2169e-c872-4eda-a2b2-e6a11c3ed5fc)
 
 ### File Upload
     Users can upload and share files within the chat, 
